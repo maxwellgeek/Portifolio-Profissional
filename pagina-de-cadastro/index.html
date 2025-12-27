@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de cliente</h1>   
+    <p>Cadastre nesse formulário todos os campos, pois todos são obrigatórios.</p>
+    <section id="dadospessoais">
+        <h2>Dados Pessoais</h2>
+        <div class="coluna">
+            <label>Nome Completo: </label>
+            <input type="text" required>
+        </div>        
+        <div>
+            <label>Data de Nascimento: </label>
+            <input type="date" required>
+        </div>
+        <div class="coluna">
+            <label>Telefone principal: </label>
+            <input type="tel" required>
+        </div>
+        <div>
+            <label>Telefone secundário: </label>
+            <input type="tel" required>
+        </div>
+    </section>
+     <section id="plano">
+        <h2>Plano</h2>
+        <h3>Quantidade de Telas</h3>
+        <p><strong>ATENÇÃO!!! &#9888; Informações dos Planos:</strong> Segue abaixo a quantidade de tela e o valor correspondente ao plano escolhido.</p>
+        <ul type="circle">
+            <li>1 Tela - R$30,00</li>
+            <li>2 Telas - R$50,00</li>
+            <li>3 Telas - R$75,00</li>
+            <li>4 Telas - R$100,00</li>
+            <li>+ 4 Telas - A combinar</li>
+        </ul>
+        <select name="telas" id="telas">
+            <option value="" disabled selected> -- Selecione uma opção --</option>
+            <option value="1">1 Tela</option>
+            <option value="2">2 Telas</option>
+            <option value="3">3 Telas</option>
+            <option value="4">4 Telas</option>
+            <option value="+4">+ 4 Telas</option>
+        </select>
+        <h3>Onde será instalado?</h3>
+        <select name="dispositivo" id="dispositivo">
+            <option value="" disabled selected> -- Selecione uma opção --</option>
+            <option value="smartv">Smart TV</option>          
+            <option value="tvbox">TV box</option>
+            <option value="computador">Computador</option>
+            <option value="celular">Celular</option>
+            <option value="tablet">Tablet</option>
+        </select><br>
+        <h4>Marca da Smart TV</h4>
+        <select name="marca" id="marca">
+            <option value="" disabled selected> -- Selecione uma marca --</option>
+            <option value="samsung">Samsung</option>
+            <option value="lg">LG</option>
+            <option value="philco">Philco</option>
+            <option value="philips">Philips</option>
+            <option value="tcl">TCL</option>
+            <option value="aoc">AOC</option>
+            <option value="xiaomi">Xiaomi</option>
+        </select><br>
+        <h4>Modelo da TV Box</h4>
+        <select name="modelobox" id="modelobox">
+            <option value="" disabled selected> -- Selecione um modelo --</option>
+            <option value="mxq4k">MXQ4K</option>
+            <option value="tx9">TX9</option>
+            <option value="btx">BTV</option>
+            <option value="firestick">Fire Stick</option>
+            <option value="mibox">Mi Box</option>
+            <option value="outros">Outros</option>
+        </select><br>
+
+        <h3>Data de Vencimento</h3>
+        <select name="vencimento" id="vencimento">
+            <option value="" disabled selected> -- Selecione uma data --</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+        </select><br>
+        <h3>Forma de Pagamento</h3>
+        <select name="pagamento" id="pagamento">
+            <option value="" disabled selected> -- Selecione uma forma de pagamento --</option>
+            <option value="pix">PIX</option>
+            <option value="credito">Crédito</option>
+            <option value="debito">Débito</option>
+            <option value="dinheiro">Dinheiro</option>
+        </select><br>
+        <article>
+            <button id="cadastrar" onclick="Cadastrar()">Cadastrar</button>
+        </article>
+
+
+    </section>
+</body>
+</html>
+
+
+
+
+             <span>MXQ4K <input type="radio" required></span>
+            <span>TX9 <input type="radio" required></span>
+            <span>BTV <input type="radio" required></span>
+            <span>Fire Stick <input type="radio" required></span>
+            <span>Mi Box <input type="radio" required></span>
+            <span>Outros <input type="text" required></span><br>
