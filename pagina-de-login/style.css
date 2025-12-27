@@ -2,6 +2,7 @@
     background: url(imagens/wallpaper004.jpg) no-repeat;
     height: 98vh;
     position: relative;
+    max-width: 100%;
 
 }
 
