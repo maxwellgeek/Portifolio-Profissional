@@ -1,21 +1,33 @@
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-position: left top;
+}
+
 h1 {
     color: #000000;
-    font-size: 60px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(24px, 5vw, 28px);
+    font-family:'Montserrat Bold,sans-serif';
     text-align: center;
+    font-weight: 700;
+    
 }
 
 h2{
     color: #000000;
-    font-size: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-family:'Roboto Regular, sans-serif';
     text-align: center;
 }
 
 h3{
     color: #000000;
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-family:'Roboto Regular, sans-serif';
     text-align: center;
 }
 
@@ -26,13 +38,31 @@ h4{
     text-align: center;
 }
 
-p{
-    color: #000000;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    font-size: 15px;
-}
 body {
-    background-image:url('imagens/wallpaper004.jpg');
+    color: #000000;
+    font-family: 'Roboto Regular', sans-serif;
+    text-align: center;
+    font-size: 16px;  
+    background-position: center center;
 }
+#cadastrar {  
+    background-color: #e94e4e;  
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat SemiBold', sans-serif;
+    text-decoration: none;
+    font-size: 16px;     
+    border-radius: 8px;  
+    background-position: center center;    
+    padding: 5px;
+    margin-top: 30px;
+    
+}
+
+#cadastrar:hover {
+        background-color: white;
+        border-radius:8px;
+        color: #e94e4e;        
+}
+
+
 
