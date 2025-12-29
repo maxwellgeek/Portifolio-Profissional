@@ -43,7 +43,7 @@
     
 }
 #entrar {
-    background: blue center center;
+    background: #d61344 center center;
     width: 80px;
     height: 40px;
     color: white;
@@ -54,22 +54,32 @@
     
 }
 #esqueci {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2563EB
+    font-family: 'Montserrat SemiBold', sans-serif;
     text-decoration: none;
     font-size: 10px;
     margin-left: 80px;
     
     
 }
+#esqueci:hover {
+        color: #e94e4e;
+        text-decoration: underline;
+    }
 #cadastro {    
-    color: rgb(255, 238, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat SemiBold', sans-serif;
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 100px;
-     
+    font-size: 16px;
+    margin-left: 100px;   
      
     
     
 }
+
+#cadastro:hover {
+        background-color: white;
+        border-radius:8px;
+        color: #e94e4e;
+        border-default: 1px #D1D5DB;
+    }
